@@ -33,8 +33,8 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned more important knowledge: '#{steve.knowledge[1]}' from Avi"
 
-even_more_knowledge = avi.teach
-steve.learn(even_more_knowledge)
+# even_more_knowledge = avi.teach
+steve.learn(some_knowledge)
 
 puts "Steve just learned even MORE important knowledge: '#{steve.knowledge[2]}' from Avi"
 
