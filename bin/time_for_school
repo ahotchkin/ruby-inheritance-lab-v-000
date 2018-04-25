@@ -41,20 +41,20 @@ puts "Steve just learned even MORE important knowledge: '#{steve.knowledge[2]}' 
 puts "Steve is really smart, he's learned quite an array of knoweldge from Avi: #{steve.knowledge}"
 
 
-sarah.learn(some_knowledge)
-
-puts "Sarah just learned this important knowledge: '#{sarah.knowledge.first}' from Avi"
-
-more_knowledge = avi.teach
-sarah.learn(more_knowledge)
-
-puts "Sarah just learned more important knowledge: '#{sarah.knowledge[1]}' from Avi"
-
-even_more_knowledge = avi.teach
-sarah.learn(even_more_knowledge)
-
-puts "Sarah just learned even MORE important knowledge: '#{sarah.knowledge[2]}' from Avi"
-
-puts "Sarah is really smart, she's learned quite an array of knoweldge from Avi: #{sarah.knowledge}"
+# sarah.learn(some_knowledge)
+#
+# puts "Sarah just learned this important knowledge: '#{sarah.knowledge.first}' from Avi"
+#
+# more_knowledge = avi.teach
+# sarah.learn(more_knowledge)
+#
+# puts "Sarah just learned more important knowledge: '#{sarah.knowledge[1]}' from Avi"
+#
+# even_more_knowledge = avi.teach
+# sarah.learn(even_more_knowledge)
+#
+# puts "Sarah just learned even MORE important knowledge: '#{sarah.knowledge[2]}' from Avi"
+#
+# puts "Sarah is really smart, she's learned quite an array of knoweldge from Avi: #{sarah.knowledge}"
 
 # avi.teach doesn't always return a unique element from KNOWLEDGE
